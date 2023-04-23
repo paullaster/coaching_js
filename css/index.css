@@ -46,3 +46,39 @@ body{
 .header-nav_container__list{
     display: none;
 }
+/* 
+Mobile first approach
+max-with
+ */
+@media (min-width: 992px) {
+    /* .header{
+        background-color: navy;
+        padding: 4% 0;
+    } */
+    .header-nav{
+        /* background-color: brown; */
+        margin-inline: 4%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .header-nav_container{
+        /* background-color: crimson; */
+    }
+    .icon-style{
+        /* background-color: red; */
+        width: 85vw;
+        color: yellow;
+        display: none;
+        justify-content: right;
+        font-size: 2rem;
+    }
+    .header-nav_container__logo{
+        background-color: yellow !important;
+        width: 20vw;
+    
+    }
+    .header-nav_container__list{
+        display: block;
+    }
+}
