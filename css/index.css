@@ -1,4 +1,5 @@
 /* resets -help to reset the dafault */
+/* rem, em, vw, vh --% - (relative units) */
 html{
 
 }
@@ -16,4 +17,15 @@ body{
 }
 .header{
     background-color: teal;
+}
+.header-nav{
+    background-color: brown;
+}
+.header-nav_container{
+    background-color: crimson;
+}
+.header-nav_container__logo{
+    background-color: yellow !important;
+    width: 20vw;
+
 }
