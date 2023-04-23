@@ -50,11 +50,10 @@ body{
 Mobile first approach
 max-with
  */
-@media (min-width: 992px) {
-    /* .header{
-        background-color: navy;
-        padding: 4% 0;
-    } */
+@media (min-width: 900px) {
+    .header{
+        padding: 1.6% 0;
+    }
     .header-nav{
         /* background-color: brown; */
         margin-inline: 4%;
@@ -66,19 +65,49 @@ max-with
         /* background-color: crimson; */
     }
     .icon-style{
-        /* background-color: red; */
-        width: 85vw;
-        color: yellow;
-        display: none;
-        justify-content: right;
-        font-size: 2rem;
+      display: none;
     }
     .header-nav_container__logo{
         background-color: yellow !important;
         width: 20vw;
     
     }
+    .list_container{
+        width: 95vw;
+        display: flex;
+        justify-content: right;
+    }
     .header-nav_container__list{
         display: block;
+        padding-left: .8rem;
+    }
+    .header-nav_container__list a{
+        text-decoration: none;
+        color: yellow;
+        font-size: 1.6rem;
+
+    }
+}
+@media (min-width: 1200px) {
+    .header-nav{
+        /* background-color: brown; */
+        margin-inline: 1.6%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .header-nav_container{
+        /* background-color: crimson; */
+    }
+    .header-nav_container__logo{
+        width: 8vw;
+    
+    }
+    
+    .header-nav_container__list a{
+        text-decoration: none;
+        color: yellow;
+        font-size: .9rem;
+        
     }
 }
