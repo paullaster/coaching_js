@@ -19,10 +19,14 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <img src="./logo.png" alt="logo" srcset="">
+    <header class="header">
+        <!-- 
+            Every element has class.
+            BEM: Base Element Modifier
+        -->
+        <nav class="header-nav">
+            <div class="header-nav_container">
+                <img src="./logo.png" alt="logo" srcset="" class="header-nav_container__logo">
             </div>
             <ul>
                 <li><a href="">products</a></li>
