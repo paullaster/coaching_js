@@ -16,16 +16,25 @@ body{
     box-sizing: inherit;
 }
 .header{
-    background-color: teal;
+    background-color: navy;
 }
 .header-nav{
-    background-color: brown;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .header-nav_container{
-    background-color: crimson;
+    /* background-color: crimson; */
+}
+.icon-style{
+    color: yellow;
 }
 .header-nav_container__logo{
     background-color: yellow !important;
     width: 20vw;
 
+}
+.header-nav_container__list{
+    display: none;
 }

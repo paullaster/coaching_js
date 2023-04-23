@@ -17,6 +17,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample ecommerce app</title>
     <link rel="stylesheet" href="./css/index.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header class="header">
@@ -28,11 +30,14 @@
             <div class="header-nav_container">
                 <img src="./logo.png" alt="logo" srcset="" class="header-nav_container__logo" />
             </div>
-            <ul>
-                <li><a href="">products</a></li>
-                <li><a href="">new arrivals</a></li>
-                <li><a href="">latest offers</a></li>
-                <li><a href="">about us</a></li>
+            <div class="header-nav_container icon-style">
+                <span class="fa fa-bars" aria-hidden="true"></span>
+            </div>
+            <ul class="header-nav_container list_container">
+                <li class="header-nav_container__list"><a href="">products</a></li>
+                <li class="header-nav_container__list"><a href="">new arrivals</a></li>
+                <li class="header-nav_container__list"><a href="">latest offers</a></li>
+                <li class="header-nav_container__list"><a href="">about us</a></li>
             </ul>
         </nav>
     </header>
