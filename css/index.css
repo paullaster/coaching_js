@@ -1,7 +1,8 @@
 /* resets -help to reset the dafault */
 /* rem, em, vw, vh --% - (relative units) */
+/* rem = 1rem === 16px */
 html{
-
+    font-size: 100%;
 }
 *,
 *::before,
@@ -17,9 +18,11 @@ body{
 }
 .header{
     background-color: navy;
+    padding: 4% 0;
 }
 .header-nav{
     /* background-color: brown; */
+    margin-inline: 4%;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -28,7 +31,12 @@ body{
     /* background-color: crimson; */
 }
 .icon-style{
+    /* background-color: red; */
+    width: 85vw;
     color: yellow;
+    display: flex;
+    justify-content: right;
+    font-size: 2rem;
 }
 .header-nav_container__logo{
     background-color: yellow !important;
